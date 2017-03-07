@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		89256F881E09BAA1004C8D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256F871E09BAA1004C8D53 /* AppDelegate.swift */; };
-		89256F8A1E09BAA1004C8D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256F891E09BAA1004C8D53 /* ViewController.swift */; };
 		89256F8D1E09BAA1004C8D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89256F8B1E09BAA1004C8D53 /* Main.storyboard */; };
 		89256F8F1E09BAA1004C8D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89256F8E1E09BAA1004C8D53 /* Assets.xcassets */; };
 		89256F921E09BAA1004C8D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89256F901E09BAA1004C8D53 /* LaunchScreen.storyboard */; };
+		89256F9B1E09BCA5004C8D53 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256F9A1E09BCA5004C8D53 /* EpisodeTableViewCell.swift */; };
+		89256F9F1E09BD7A004C8D53 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256F9E1E09BD7A004C8D53 /* Episode.swift */; };
+		89256FA11E09BDFF004C8D53 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256FA01E09BDFF004C8D53 /* NetworkService.swift */; };
+		89256FA31E09BECB004C8D53 /* MyPodcast.json in Resources */ = {isa = PBXBuildFile; fileRef = 89256FA21E09BECB004C8D53 /* MyPodcast.json */; };
+		89256FA51E09BF81004C8D53 /* EpisodesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89256FA41E09BF81004C8D53 /* EpisodesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89256F841E09BAA1004C8D53 /* MyPodcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPodcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89256F871E09BAA1004C8D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89256F891E09BAA1004C8D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89256F8C1E09BAA1004C8D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89256F8E1E09BAA1004C8D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89256F911E09BAA1004C8D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89256F931E09BAA1004C8D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89256F9A1E09BCA5004C8D53 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		89256F9E1E09BD7A004C8D53 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		89256FA01E09BDFF004C8D53 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		89256FA21E09BECB004C8D53 /* MyPodcast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MyPodcast.json; sourceTree = "<group>"; };
+		89256FA41E09BF81004C8D53 /* EpisodesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		89256F861E09BAA1004C8D53 /* MyPodcast */ = {
 			isa = PBXGroup;
 			children = (
+				89256F9C1E09BD06004C8D53 /* Model */,
+				89256F991E09BC38004C8D53 /* View */,
+				89256F9D1E09BD16004C8D53 /* Controller */,
 				89256F871E09BAA1004C8D53 /* AppDelegate.swift */,
-				89256F891E09BAA1004C8D53 /* ViewController.swift */,
-				89256F8B1E09BAA1004C8D53 /* Main.storyboard */,
 				89256F8E1E09BAA1004C8D53 /* Assets.xcassets */,
 				89256F901E09BAA1004C8D53 /* LaunchScreen.storyboard */,
 				89256F931E09BAA1004C8D53 /* Info.plist */,
 			);
 			path = MyPodcast;
+			sourceTree = "<group>";
+		};
+		89256F991E09BC38004C8D53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89256F9A1E09BCA5004C8D53 /* EpisodeTableViewCell.swift */,
+				89256F8B1E09BAA1004C8D53 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		89256F9C1E09BD06004C8D53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89256FA21E09BECB004C8D53 /* MyPodcast.json */,
+				89256F9E1E09BD7A004C8D53 /* Episode.swift */,
+				89256FA01E09BDFF004C8D53 /* NetworkService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89256F9D1E09BD16004C8D53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89256FA41E09BF81004C8D53 /* EpisodesTableViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +162,7 @@
 			files = (
 				89256F921E09BAA1004C8D53 /* LaunchScreen.storyboard in Resources */,
 				89256F8F1E09BAA1004C8D53 /* Assets.xcassets in Resources */,
+				89256FA31E09BECB004C8D53 /* MyPodcast.json in Resources */,
 				89256F8D1E09BAA1004C8D53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89256F8A1E09BAA1004C8D53 /* ViewController.swift in Sources */,
+				89256FA11E09BDFF004C8D53 /* NetworkService.swift in Sources */,
+				89256F9F1E09BD7A004C8D53 /* Episode.swift in Sources */,
+				89256FA51E09BF81004C8D53 /* EpisodesTableViewController.swift in Sources */,
+				89256F9B1E09BCA5004C8D53 /* EpisodeTableViewCell.swift in Sources */,
 				89256F881E09BAA1004C8D53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

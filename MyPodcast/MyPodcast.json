@@ -1,0 +1,63 @@
+{
+    "feed" : {
+        "title": "This Is Life - Pejman Ghadimi",
+        "link": "http://www.secretentourage.com/page/1/",
+        "author": "Pejman Ghadimi"
+    },
+    
+    "episodes" : [
+                  {
+                  "title": "Ep23: Why College Won't Teach You To Be Successful",
+                  "link": "http://thisislife.libsyn.com/ep-23-why-college-wont-teach-you-to-be-successful",
+                  "pubDate": "Fri, 9 Dec 2016",
+                  "author": "Pejman Ghadimi",
+                  "description" : "The university system has sold us an illusion of self-application. Students have been hold the magic ticket to a good life is “go to college and you’ll get a good job”. No need for leadership. No need for maturity. No need for people skills. No need for honing your passion and drive. No need to learn negotiation. No need for personal application. Just follow the yellow brick road and you’ll get there. Wrong.",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885611/?height=90&width=90"
+                  },
+                  
+                  {
+                  "title": "Ep 22: Third Circle Mindset - Leading by Example",
+                  "link": "http://thisislife.libsyn.com/ep-22-third-circle-mindset-leading-by-example",
+                  "pubDate": "Wed, 7 Dec 2016",
+                  "author": "Pejman Ghadimi",
+                  "description": "It's been almost 4 years since Pejman Ghadimi shared with the world his concepts in Third Circle Theory. It has impacted thousands of young entrepreneurs as they launch their new businesses and helped others achieve better awareness of the world around them. However, does Pejman really practice what he preaches?",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885499/?height=90&width=90"
+                  },
+                  
+                  {
+                  "title": "Ep 21: Researching and Validating Your Business Idea",
+                  "link": "http://thisislife.libsyn.com/ep-21-researching-and-validating-your-business-idea",
+                  "pubDate": "Mon, 5 Dec 2016",
+                  "author": "Pejman Ghadimi",
+                  "description": "Starting a business is a little like buying a car: You need to do some research before taking the plunge.Today, your host, Pejman Ghadimi, discusses how doing your due diligence can mean the difference between success and failure. Interviewing him today is Noah, who wants to learn how to get his foot in the door in a niche market and how to validate that his product idea is worth investing his time into.As a bonus, Pejman also shares his strategy for running the numbers on business ideas before you open your doors.",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885417/?height=90&width=90"
+                  },
+                  
+                  {
+                  "title": "Ep 20: The Six Degrees of Networking",
+                  "link": "http://thisislife.libsyn.com/ep-20-the-six-degrees-of-networking",
+                  "pubDate": "Fri, 2 Dec 2016",
+                  "author": "Pejman Ghadimi",
+                  "description" : "Developing your business network is essential in growing your company. However, 21st Century technology has changed the way we all network. Instead of cold calling or sending out unsolicited email, we’re seeking out connections on social media and referrals to help build our networks – and ultimately business.",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885611/?height=90&width=90"
+                  },
+                  
+                  {
+                  "title": "Ep 19: Business Ideas - Preperation, Validation & TIMING",
+                  "link": "http://thisislife.libsyn.com/ep-19-business-ideas-preparation-validation-timing",
+                  "pubDate": "Mon, 28 Nov 2016",
+                  "author": "Pejman Ghadimi",
+                  "description": "If you’re an aspiring entrepreneur or have a business venture, you’ve already thought long and hard about it. You’ve been thinking about the big day. The day when you can finally quit making someone else rich and start focusing on working for yourself.",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885499/?height=90&width=90"
+                  },
+                  
+                  {
+                  "title": "Ep 18: Managing Employees & Brand Ambassadors",
+                  "link": "http://thisislife.libsyn.com/ep-18-managing-employees-brand-ambassadors",
+                  "pubDate": "Mon, 5 Dec 2016",
+                  "author": "Pejman Ghadimi",
+                  "description": "Leading a team isn’t easy, and it requires specific skills that not everybody has. Even if you have these skills in spades, at some point, you’ll find yourself faced with the challenge of dealing with an unhappy employee.Today, your host, Pejman Ghadimi, discusses how to build the right brand culture from day one to prevent bad employee habits, keeping your team motivated and figuring out how to pay them. Interviewing him today is Matt, who owns a clothing startup and needs help dealing with his employees who may not share his vision of success.",
+                  "thumbnailURL": "https://assets.libsyn.com/secure/item/4885417/?height=90&width=90"
+                  }
+                  ]
+}
