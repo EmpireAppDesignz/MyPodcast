@@ -15,3 +15,5 @@ Add your app icons
 Go to "info" section of Xcode and add Your app name in "Bundle Name" Area
 
 Contact me if you have any questions on MyPodcast Source Code Eric@empireappdesignz.com or Empireappdesignz@gmail.com
+
+Checkout my Applications in iTunes: http://empireappdesignz.com
